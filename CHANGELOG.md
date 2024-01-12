@@ -16,5 +16,3 @@
 | left foo     |     right foo |  center foo  |
 | left bar     |     right bar |  center bar  |
 | left baz     |     right baz |  center baz  |
-
-### Yes

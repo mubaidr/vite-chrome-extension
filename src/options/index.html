@@ -14,7 +14,76 @@
     <title><%= HTML_TITLE %></title>
   </head>
   <body>
-    <div id="app"></div>
+    <div>
+      <section>
+        <div
+          class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
+        >
+          <div
+            class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16"
+          >
+            <div
+              class="mx-auto max-w-lg text-center lg:mx-0 ltr:lg:text-left rtl:lg:text-right"
+            >
+              <h2 class="text-3xl font-bold sm:text-4xl">
+                Welcome to Options Page!
+              </h2>
+
+              <p class="mt-2 text-gray-600 text-lg">
+                A vite powered chrome extension boiler plate.
+              </p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4 text-center">
+              <div
+                class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+              >
+                <h2 class="mt-2 font-bold text-lg">Hot Reload</h2>
+                <p class="text-gray-600">
+                  HMR updates without page reload. Powered by awesome Vite!
+                </p>
+              </div>
+              <div
+                class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+              >
+                <h2 class="mt-2 font-bold text-lg">Manifest 3</h2>
+                <p class="text-gray-600">
+                  Dynamic Manifest 3 config. Powered by awesome
+                  @crxjs/vite-plugin!
+                </p>
+              </div>
+              <div
+                class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+              >
+                <h2 class="mt-2 font-bold text-lg">Tailwind CSS</h2>
+                <p class="text-gray-600">
+                  DEsign awesome interfaces using rpe-configures tailwind css
+                  and Daisy-ui
+                </p>
+              </div>
+              <div
+                class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+              >
+                <h2 class="mt-2 font-bold text-lg">Configurations</h2>
+                <p class="text-gray-600">
+                  All pages samples included, background, popup, options, and
+                  more
+                </p>
+              </div>
+            </div>
+
+            <a
+              href="https://github.com/mubaidr/vite-chrome-extension"
+              target="_blank"
+              class="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm text-center font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+            >
+              Explore repository on Github
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
     <script
       type="module"
       src="index.ts"
