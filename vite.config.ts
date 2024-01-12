@@ -4,10 +4,8 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Icons from 'unplugin-icons/vite'
 import { URL, fileURLToPath } from 'url'
 import { defineConfig, type Plugin } from 'vite'
-import { defineViteConfig as define } from './define.config'
 import manifest from './manifest.config'
 import packageJson from './package.json'
-
 const transformHtmlPlugin = (data) =>
   <Plugin>{
     name: 'transform-html',
@@ -59,9 +57,10 @@ export default defineConfig({
 
     transformHtmlPlugin({
       HTML_TITLE: packageJson.displayName || packageJson.name,
+      DISPLAY_NAME: packageJson.displayName || packageJson.name,
+      VERSION: packageJson.version,
     }),
   ],
-  define,
   build: {
     rollupOptions: {
       input: {

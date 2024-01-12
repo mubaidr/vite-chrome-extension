@@ -14,7 +14,63 @@
     <title><%= HTML_TITLE %></title>
   </head>
   <body>
-    <div id="app"></div>
+    <div
+      class="w-full h-full flex flex-col gap-y-4 justify-center items-center"
+    >
+      <h1 class="text-4xl font-bold">🎉 Updated! 🚀</h1>
+      <p class="text-xl">
+        <%= DISPLAY_NAME %> has been updated to latest version! ❤️
+      </p>
+      <p class="text-lg">
+        Now you can close this tab and start using the extension.
+      </p>
+      <p>Version: <%= VERSION %></p>
+
+      <div class="grid grid-cols-2 gap-4 text-center">
+        <div
+          class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+        >
+          <h2 class="mt-2 font-bold text-lg">Hot Reload</h2>
+          <p class="text-gray-600">
+            HMR updates without page reload. Powered by awesome Vite!
+          </p>
+        </div>
+        <div
+          class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+        >
+          <h2 class="mt-2 font-bold text-lg">Manifest 3</h2>
+          <p class="text-gray-600">
+            Dynamic Manifest 3 config. Powered by awesome @crxjs/vite-plugin!
+          </p>
+        </div>
+        <div
+          class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+        >
+          <h2 class="mt-2 font-bold text-lg">Tailwind CSS</h2>
+          <p class="text-gray-600">
+            DEsign awesome interfaces using rpe-configures tailwind css and
+            Daisy-ui
+          </p>
+        </div>
+        <div
+          class="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+        >
+          <h2 class="mt-2 font-bold text-lg">Configurations</h2>
+          <p class="text-gray-600">
+            All pages samples included, background, popup, options, and more
+          </p>
+        </div>
+      </div>
+
+      <a
+        href="https://github.com/mubaidr/vite-chrome-extension"
+        target="_blank"
+        class="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm text-center font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+      >
+        Explore repository on Github
+      </a>
+    </div>
+
     <script
       type="module"
       src="index.ts"
