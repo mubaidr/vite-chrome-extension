@@ -1,6 +1,3 @@
 function sendLogToBackground(data) {
-  chrome.runtime.sendMessage({
-    type: 'CONSOLE_LOG',
-    data,
-  })
+    // Removed the body of the unused function sendLogToBackground
 }
