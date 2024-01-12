@@ -8,14 +8,14 @@ chrome.runtime.onInstalled.addListener(async (opt) => {
       active: true,
       // Open the setup page and append `?type=install` to the URL so frontend
       // can know if we need to show the install page or update page.
-      url: chrome.runtime.getURL('./src/setup/index.html?type=install'),
+      url: chrome.runtime.getURL('./src/setup/install.html'),
     })
   }
 
   if (opt.reason === 'update') {
     chrome.tabs.create({
       active: true,
-      url: chrome.runtime.getURL('./src/setup/index.html?type=update'),
+      url: chrome.runtime.getURL('./src/setup/update.html'),
     })
   }
 })

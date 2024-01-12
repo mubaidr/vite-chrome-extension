@@ -7,3 +7,9 @@ window.console.log = (...data) => {
 }
 
 console.log('console log from offscreen document')
+
+self.onerror = function (message, source, lineno, colno, error) {
+  console.info(
+    `Error: ${message}\nSource: ${source}\nLine: ${lineno}\nColumn: ${colno}\nError object: ${error}`
+  )
+}

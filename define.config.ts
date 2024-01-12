@@ -1,5 +1,5 @@
-import fs from 'fs'
 import { spawnSync } from 'child_process'
+import fs from 'fs'
 import packageJson from './package.json'
 
 // Read CHANGELOG.md file into a string.
@@ -14,7 +14,7 @@ const jsn = (value: string) => JSON.stringify(value)
 
 // Don't forget to add your added variables to vite-env.d.ts also!
 
-// These variables are available in your Vue components and will be replaced by their values at build time.
+// These variables are available in your components/ pages and will be replaced by their values at build time.
 // These will be compiled into your app. Don't store secrets here!
 
 export const defineViteConfig = {

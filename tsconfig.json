@@ -17,15 +17,14 @@
       "~/*": ["./src/*"],
       "src/*": ["./src/*"]
     },
-    "types": ["unplugin-icons/types/vue", "chrome-types"]
+    "types": ["chrome-types"]
   },
   "include": [
     "vite.config.ts",
     "manifest.config.ts",
     "src/**/*.ts",
     "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue"
+    "src/**/*.tsx"
   ],
   "references": [
     {
