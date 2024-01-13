@@ -6,6 +6,8 @@ A [Vite](https://vitejs.dev/) powered WebExtension ([Chrome](https://developer.c
 
 **Please check: [vite-vue3-chrome-extension-v3](https://github.com/mubaidr/vite-vue3-chrome-extension-v3) for a more advance template based on Vuejs**
 
+**Looking for more simple solution? Look no further [simple-vite-chrome-extension](https://github.com/mubaidr/simple-vite-chrome-extension)**
+
 ## Features
 
 - HMR for extension pages and content scripts
@@ -101,4 +103,14 @@ And then pack files under `dist`, you can upload `dist.crx` or `dist.xpi` to app
 ## Contributors
 
 <!-- readme: collaborators,contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/mubaidr">
+            <img src="https://avatars.githubusercontent.com/u/2222702?v=4" width="100;" alt="mubaidr"/>
+            <br />
+            <sub><b>Muhammad Ubaid Raza</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: collaborators,contributors -end -->
