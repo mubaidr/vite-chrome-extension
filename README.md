@@ -6,6 +6,8 @@ A [Vite](https://vitejs.dev/) powered WebExtension ([Chrome](https://developer.c
 
 **Please check: [vite-vue3-chrome-extension-v3](https://github.com/mubaidr/vite-vue3-chrome-extension-v3) for a more advance template based on Vuejs**
 
+**Looking for more simple solution? Look no further [simple-vite-chrome-extension](https://github.com/mubaidr/simple-vite-chrome-extension)**
+
 ## Features
 
 - HMR for extension pages and content scripts
